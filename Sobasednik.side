@@ -1,0 +1,210 @@
+{
+  "id": "ff842a19-00c0-4954-aa37-6b054aec6783",
+  "version": "2.0",
+  "name": "Sobasednik",
+  "url": "https://qahacking.guru/",
+  "tests": [{
+    "id": "d80a9468-2a94-4679-ad85-63c53c3275d2",
+    "name": "forma bronirovania",
+    "commands": [{
+      "id": "2b03dede-4d96-4f5b-827d-ae97cb0e064d",
+      "comment": "",
+      "command": "open",
+      "target": "https://qahacking.guru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea7c5a3b-c1c9-4127-a1f5-8de5e9916dae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c734f33-5213-48a9-894e-9f6bf55d82b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-nav > li:nth-child(1) > a",
+      "targets": [
+        ["css=.uk-navbar-nav > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'О нас')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/index.php/about')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "757db305-3844-4aa2-aa6e-9eb3247e5254",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/table/tbody/tr[2]/td/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05de6970-76a7-48c4-a773-cfa7a0eb8050",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/table/tbody/tr[2]/td/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Larisa"
+    }, {
+      "id": "a2099d63-96b1-49c7-aac9-1babfaae967f",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/table/tbody/tr[2]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": "Zaitseva"
+    }, {
+      "id": "af321f1d-2288-4bb2-8fba-26b6a90b5133",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["css=#userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='userEmail-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "lara@mail.ru"
+    }, {
+      "id": "3b150c24-5bea-4a35-b56b-fab398750a33",
+      "comment": "",
+      "command": "click",
+      "target": "id=sex-1",
+      "targets": [
+        ["id=sex-1", "id"],
+        ["name=gender", "name"],
+        ["css=#sex-1", "css:finder"],
+        ["xpath=//input[@id='sex-1']", "xpath:attributes"],
+        ["xpath=//div[@id='genterWrapper']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c76d55-7358-40e0-82d5-0c022a49261b",
+      "comment": "",
+      "command": "type",
+      "target": "id=userNumber",
+      "targets": [
+        ["id=userNumber", "id"],
+        ["css=#userNumber", "css:finder"],
+        ["xpath=//input[@id='userNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='userNumber-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "+79025689854"
+    }, {
+      "id": "abaee168-6dab-4af6-9a75-5799a4d93447",
+      "comment": "",
+      "command": "type",
+      "target": "id=date",
+      "targets": [
+        ["id=date", "id"],
+        ["css=#date", "css:finder"],
+        ["xpath=//input[@id='date']", "xpath:attributes"],
+        ["xpath=//div[@id='dateOfBirth']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "23 Aug 2023"
+    }, {
+      "id": "ea04c543-fe60-4b5d-b1ad-2936c3579615",
+      "comment": "",
+      "command": "click",
+      "target": "id=hobbies-checkbox-1",
+      "targets": [
+        ["id=hobbies-checkbox-1", "id"],
+        ["css=.col-md-9:nth-child(2) > .custom-control > #hobbies-checkbox-1", "css:finder"],
+        ["xpath=//input[@id='hobbies-checkbox-1']", "xpath:attributes"],
+        ["xpath=//div[@id='hobbiesWrapper']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82fe9d97-4a7b-4656-a9c1-4ed91a784101",
+      "comment": "",
+      "command": "click",
+      "target": "id=hobbies-checkbox-2",
+      "targets": [
+        ["id=hobbies-checkbox-2", "id"],
+        ["css=.col-md-9:nth-child(2) > .custom-control > #hobbies-checkbox-2", "css:finder"],
+        ["xpath=//input[@id='hobbies-checkbox-2']", "xpath:attributes"],
+        ["xpath=//div[@id='hobbiesWrapper']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad8e834-744d-49c7-b6bd-4cedcd5fda65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-9:nth-child(6) #hobbies-checkbox-1",
+      "targets": [
+        ["css=.col-md-9:nth-child(6) #hobbies-checkbox-1", "css:finder"],
+        ["xpath=(//input[@id='hobbies-checkbox-1'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='hobbiesWrapper']/div[2]/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b55fb59c-75e9-47c4-9434-3e24347fe047",
+      "comment": "",
+      "command": "type",
+      "target": "id=currentAddress",
+      "targets": [
+        ["id=currentAddress", "id"],
+        ["css=#currentAddress", "css:finder"],
+        ["xpath=//textarea[@id='currentAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='currentAddress-wrapper']/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Samara"
+    }, {
+      "id": "cca8c95d-3875-4dda-a997-2267b0cb98aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[10]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ПОДТВЕРДИТЬ ОТПРАВКУ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af4f041c-0eeb-4c89-bba1-2320aa7328ca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8697da99-b7eb-4819-9645-5775eafb8211",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d80a9468-2a94-4679-ad85-63c53c3275d2"]
+  }],
+  "urls": ["https://qahacking.guru/"],
+  "plugins": []
+}
